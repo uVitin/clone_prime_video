@@ -1,0 +1,43 @@
+@use 'variaveis';
+
+.titulos  {
+    background-color: variaveis.$corBackground;
+    padding-top: 40px;
+    padding-left: 105.6px;
+    padding-right: 105.6px;
+
+    &__menu {
+        color: #fff;
+
+        h3 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            display: inline;
+            padding-right: 24px;
+            cursor: pointer;
+
+            &:hover {
+                border-bottom: 5px solid #fff;
+                transition: 0.2s;
+            }
+        }
+    }
+
+    .filmes {
+        padding-top: 40px;
+        padding-bottom: 130px;
+        display: flex;
+        justify-content: center;
+
+        li {
+            display: inline;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 230px;
+            max-height: 280px;
+        }
+    }
+}
