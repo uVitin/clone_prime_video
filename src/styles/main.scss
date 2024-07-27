@@ -1,0 +1,27 @@
+@use 'variaveis';
+@use 'hero';
+
+@font-face {
+    font-family: KFOIC;
+    src: url(../../assets/fonts/KFOmCnqEu92Fr1Mu4mxK_regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: KFOIC;
+    src: url(../../assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4_bold.woff2);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: KFOIC, sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+}
+
